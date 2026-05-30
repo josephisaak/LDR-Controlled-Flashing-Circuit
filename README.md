@@ -1,2 +1,2 @@
 # LDR-Controlled-Flashing-Circuit
-Flashing light alarm that responds to low light levels.
+Designed, assembled, and tested an LDR-controlled flashing circuit using KiCAD.
