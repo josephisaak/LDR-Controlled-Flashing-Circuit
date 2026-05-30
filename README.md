@@ -13,12 +13,17 @@ To design a circuit that responds to ambient light levels by triggering a flashi
 - Functional testing under varying light conditions
 
 ## Key Features
+- Indicator light for power supply (yellow LED) 
+- Alternating Flashing Lights (green and red LEDs)
 - Light-sensitive triggering using LDR
 - Light-sensitivity threshold adjustment through potentiometer
 - Stable PCB-based implementation
 - Fully soldered and tested hardware prototype
 
 ## Images
+### Testing Setup
+![Schematic](LDR_Controlled_Flashing_Test_Circuit.png)
+
 ### Schematic
 ![Schematic](LDR_Controlled_Flashing_Circuit_Schematic.png)
 
@@ -28,8 +33,6 @@ To design a circuit that responds to ambient light levels by triggering a flashi
 ### Final Board
 ![Schematic](LDR_Controlled_Flashing_Circuit_Final_PCB.png)
 
-### Testing Setup
-![Schematic](LDR_Controlled_Flashing_Test_Circuit.png)
 
 ## Skills Demonstrated
 - Analog circuit design
@@ -38,4 +41,4 @@ To design a circuit that responds to ambient light levels by triggering a flashi
 - Hardware debugging and testing
 
 ## Results
-The circuit successfully responded to changes in ambient light and triggered flashing behavior when light levels decreased.
+The circuit successfully responded to changes in ambient light and triggered flashing behavior when light levels decreased. Indicator light properly indicates when switch is flipped on (power is supplied) and flashing lights properly aternate back and forth. Potentiometer allows for threshold adjustment of light sensitivity.
